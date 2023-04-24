@@ -1,0 +1,95 @@
+:root {
+    --primary-dark-brown: #331C0E;
+    --primary-brown: #67331E;
+    --light-brown: #B9540C;
+    --yellow: #FFF190;
+    --cream: #FCFEF0;
+    font-size: 28px;
+}
+
+@font-face {
+    font-family: 'Manrope';
+}
+
+body {
+    background-color: var(--primary-dark-brown);
+    font-family: 'Manrope', 'Times New Roman';
+}
+
+.container {
+    text-align: center;
+    margin: 0 5px;
+}
+
+.wrapper {
+    background-color: var(--primary-brown);
+    margin: 40vh 0;
+    border-radius: 7px;
+    position: relative;
+}
+
+.character-name {
+    color: var(--light-brown);
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 30px;
+}
+
+.character-photo {
+    max-width: 90%;
+    margin-bottom: 10px;
+}
+
+.ancillary-styles {
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quotation-icon {
+    display: inline;
+    font-size: 60px;
+    color: var(--yellow);
+}
+
+.contain-button {
+    height: 30px;
+}
+
+.quotation-icon::before, .quotation-icon::after {
+    position: relative;
+    bottom: 30px;
+    content: " ";
+    height: 10px;
+    width: 40%;
+    display: inline-block;
+    flex-direction: column;
+    background-color: transparent;
+    border-bottom: 1px solid var(--cream);
+    padding: 10px 0;
+}
+
+
+.main-button::before {
+    content: " ";
+}
+.main-button {
+    position: relative;
+    bottom: 0px;
+    padding: 18px;
+    background-color: var(--cream);
+    border-radius: 50px;
+
+}
+@media screen and (min-width: 321px) {
+    .container {
+        width: 310px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        width: 600px;
+    }
+
+}
