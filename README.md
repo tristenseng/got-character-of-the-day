@@ -9,7 +9,7 @@ Users should be able to:
 
 ## Screenshot
 
-![alt text](https://github.com/tristenseng/daily-affirmations-app/blob/master/images/app-screenshot.PNG)
+![alt text](https://github.com/tristenseng/got-character-of-the-day/blob/master/images/app-screenshot.PNG)
 
 
 ## Built with
